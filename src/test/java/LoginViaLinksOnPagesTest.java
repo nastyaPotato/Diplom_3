@@ -1,16 +1,16 @@
-import com.yandex.pojo.ForgotPasswordPage;
-import com.yandex.pojo.LoginPage;
-import com.yandex.pojo.RegistrationPage;
+import ru.yandex.pojo.ForgotPasswordPage;
+import ru.yandex.pojo.LoginPage;
+import ru.yandex.pojo.RegistrationPage;
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 
-import static com.yandex.pojo.ForgotPasswordPage.LOGIN_LINK_ON_FORGOT_PAGE;
-import static com.yandex.pojo.LoginPage.*;
-import static com.yandex.pojo.MainPage.ORDER_BUTTON_IN_BODY;
-import static com.yandex.pojo.RegistrationPage.LOGIN_LINK;
+import static ru.yandex.pojo.ForgotPasswordPage.LOGIN_LINK_ON_FORGOT_PAGE;
+import static ru.yandex.pojo.LoginPage.*;
+import static ru.yandex.pojo.MainPage.ORDER_BUTTON_IN_BODY;
+import static ru.yandex.pojo.RegistrationPage.LOGIN_LINK;
 import static org.junit.Assert.assertTrue;
 
 @DisplayName("Вход через линки на других страницах")

@@ -1,4 +1,4 @@
-import com.yandex.pojo.MainPage;
+import ru.yandex.pojo.MainPage;
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Assert;
@@ -7,7 +7,7 @@ import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import static com.yandex.pojo.MainPage.*;
+import static ru.yandex.pojo.MainPage.*;
 import static org.hamcrest.CoreMatchers.containsString;
 
 @DisplayName("Раздел «Конструктор»")

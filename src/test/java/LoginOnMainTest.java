@@ -1,5 +1,5 @@
-import com.yandex.pojo.LoginPage;
-import com.yandex.pojo.MainPage;
+import ru.yandex.pojo.LoginPage;
+import ru.yandex.pojo.MainPage;
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Before;
@@ -9,8 +9,8 @@ import org.junit.runners.Parameterized;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-import static com.yandex.pojo.LoginPage.*;
-import static com.yandex.pojo.MainPage.*;
+import static ru.yandex.pojo.LoginPage.*;
+import static ru.yandex.pojo.MainPage.*;
 import static org.junit.Assert.assertTrue;
 
 @DisplayName("Вход через кнопки на главной странице")

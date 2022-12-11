@@ -1,6 +1,6 @@
-import com.yandex.pojo.LoginPage;
-import com.yandex.pojo.MainPage;
-import com.yandex.pojo.RegistrationPage;
+import ru.yandex.pojo.LoginPage;
+import ru.yandex.pojo.MainPage;
+import ru.yandex.pojo.RegistrationPage;
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Before;
@@ -11,10 +11,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import ru.yandex.testdata.TestDataGenerator;
 
-import static com.yandex.pojo.LoginPage.LOGIN_HEADER;
-import static com.yandex.pojo.LoginPage.REGISTRATION_BUTTON;
-import static com.yandex.pojo.MainPage.LOGIN_BUTTON_IN_BODY;
-import static com.yandex.pojo.RegistrationPage.*;
+import static ru.yandex.pojo.LoginPage.LOGIN_HEADER;
+import static ru.yandex.pojo.LoginPage.REGISTRATION_BUTTON;
+import static ru.yandex.pojo.MainPage.LOGIN_BUTTON_IN_BODY;
+import static ru.yandex.pojo.RegistrationPage.*;
 import static org.junit.Assert.assertTrue;
 
 @DisplayName("Проверка регистрации")

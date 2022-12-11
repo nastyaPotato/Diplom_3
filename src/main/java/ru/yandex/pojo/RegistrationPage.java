@@ -1,4 +1,4 @@
-package com.yandex.pojo;
+package ru.yandex.pojo;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

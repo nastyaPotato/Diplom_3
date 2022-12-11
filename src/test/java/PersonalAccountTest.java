@@ -1,16 +1,16 @@
-import com.yandex.pojo.LoginPage;
-import com.yandex.pojo.MainPage;
-import com.yandex.pojo.PersonalAccountPage;
+import ru.yandex.pojo.LoginPage;
+import ru.yandex.pojo.MainPage;
+import ru.yandex.pojo.PersonalAccountPage;
 import io.qameta.allure.junit4.DisplayName;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 
-import static com.yandex.pojo.LoginPage.*;
-import static com.yandex.pojo.MainPage.BURGER_HEADER;
-import static com.yandex.pojo.MainPage.LOGIN_BUTTON_IN_HEADER;
-import static com.yandex.pojo.PersonalAccountPage.*;
+import static ru.yandex.pojo.LoginPage.*;
+import static ru.yandex.pojo.MainPage.BURGER_HEADER;
+import static ru.yandex.pojo.MainPage.LOGIN_BUTTON_IN_HEADER;
+import static ru.yandex.pojo.PersonalAccountPage.*;
 import static org.junit.Assert.assertTrue;
 
 @DisplayName("Переход в личный кабинет и из личного кабинета")
