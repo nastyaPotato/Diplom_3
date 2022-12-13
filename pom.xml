@@ -66,6 +66,18 @@
                             <name>allure.results.directory</name>
                             <value>${project.build.directory}/allure-results</value>
                         </property>
+                        <property>
+                            <name>driverName</name>
+                            <value>${driverName}</value>
+                        </property>
+                        <property>
+                            <name>yandexName</name>
+                            <value>${yandexName}</value>
+                        </property>
+                        <property>
+                            <name>browserName</name>
+                            <value>Yandex</value>
+                        </property>
                     </systemProperties>
                 </configuration>
                 <dependencies>
