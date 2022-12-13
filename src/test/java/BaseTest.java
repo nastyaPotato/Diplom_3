@@ -11,8 +11,10 @@ public class BaseTest {
             return new ChromeDriver();
         }
         ChromeOptions options = new ChromeOptions();
-        System.setProperty("webdriver.chrome.driver", "C:\\yandexdriver-22.11.0.2423-win\\yandexdriver.exe");
-        options.setBinary("C:\\Users\\AOMikhaylova\\AppData\\Local\\Yandex\\YandexBrowser\\Application\\browser.exe");
+        String driverName = System.getProperty("driverName");
+        System.setProperty("webdriver.chrome.driver", driverName);
+        String yandexName = System.getProperty("yandexName");
+        options.setBinary(yandexName);
         return new ChromeDriver(options);
     }
 

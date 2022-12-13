@@ -16,7 +16,7 @@ public class ConstructorTest {
 
     @Before
     public void startUp() {
-        driver = BaseTest.getWebDriver("Yandex");
+        driver = BaseTest.getWebDriver(System.getProperty("browserName"));
         driver.get("https://stellarburgers.nomoreparties.site/");
     }
 

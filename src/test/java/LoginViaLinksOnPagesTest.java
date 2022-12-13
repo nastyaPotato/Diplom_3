@@ -19,7 +19,7 @@ public class LoginViaLinksOnPagesTest {
 
     @Before
     public void startUp() {
-        driver = BaseTest.getWebDriver("Chrome");
+        driver = BaseTest.getWebDriver(System.getProperty("browserName"));
     }
 
     @After
